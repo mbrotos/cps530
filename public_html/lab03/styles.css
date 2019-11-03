@@ -1,0 +1,60 @@
+.btn-group-vertical {
+	align-content: center;
+}
+/* The side navigation menu */
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+/* Sidebar links */
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+/* Sidebar links */
+.sidebar button {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.content {
+	font-family: "Times New Roman", Times, serif;
+	background-color: darkkhaki;
+	font-size:2vw;
+}
+.header { 
+
+	color: #999999;
+	font-family: arial, sans-serif;
+	font-size: 3vw;
+	font-weight: bold;
+	margin-top: 0px;
+	margin-bottom: 1px;
+
+	}
+.buttons {
+	
+	font-family: Verdana,Arial,Helvetica,Sans Serif; 
+	font-size:10vw; 
+	color:#003366; 
+	background-color:darkkhaki; 
+	font-weight:plain; 
+	text-align:center;
+}
+.title {
+	
+	font-family: 'Black Ops One', cursive; 
+	font-size:5vw; 
+	color:#003366;
+	background-color:darkkhaki; 
+}

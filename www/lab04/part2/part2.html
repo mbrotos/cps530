@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="/lab04/part2/style.css" rel="stylesheet">
+<title>Adam Sorrenti</title>
+</head>
+<body class="bg">
+	<h1>Ryerson Information Form:</h1>
+	<div class="container">
+		<form method="post" action="/cgi-bin/lab04/part2.pl">
+			Name: <input type="text" name="name" placeholder="Your name.."/><br>
+			Gender: <br>
+			<input type="radio" name="gender" value="male" checked> Male<br>
+			<input type="radio" name="gender" value="female"> Female<br>
+			<input type="radio" name="gender" value="non-binary"> Other<br>
+			Year of Study:
+			<select name="year">
+				<option value="first year">1st year</option>
+				<option value="second year">2nd year</option>
+				<option value="third year">3rd year</option>
+				<option value="forth year">4th year</option>
+			</select><br><br>
+			<input type="submit" value="Submit">
+		</form>
+	</div>
+</body>
+</html>

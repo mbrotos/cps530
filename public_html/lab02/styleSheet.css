@@ -1,0 +1,38 @@
+.important {
+    background-color: yellow;
+}
+
+body {
+	background-color: rgba(173, 216, 230, 1.00); 
+}
+
+h1 {
+	color: rgba(0,29,255,0.59);/*CSS3-only feature rgba() with alpha*/
+}
+
+img.header {
+	float: right;
+}
+details.header {
+	float: center;
+}
+table.body {
+	width: 300px;
+	height: 200px;
+}
+a.menuBar {
+	display: inline;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	list-style-type: none;
+	overflow: hidden;
+	background-color: #333;
+}
+
+table, th, td {
+	border: 1px solid black;
+	border-radius: 25px;/*CSS3-only feature*/
+	background-color: aliceblue
+}
